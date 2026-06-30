@@ -595,8 +595,7 @@ def new_game():
     time.sleep(0.5)
     player = Player(player_name)  # 实例化玩家
 
-    #后门
-    if player_name == "刘金奕":
+    if player_name == "SamuFlore":
         print_action("已进入测试模式。已进入测试模式。已进入测试模式。\n")
         player.health = 9999
         player.attackpoint = 9999
@@ -611,7 +610,7 @@ def new_game():
 
 # 开始界面
 def start():
-    print_context("您正在游玩 Hellfighter©️ ver2.3.1_20250112-Beta\n作者：Samustach\n")
+    print_context("您正在游玩 Hellfighter©️ ver2.3.2_20260630-Beta\n作者：Samustach\n")
     time.sleep(0.5)
     bar()
     time.sleep(0.5)
